@@ -1,18 +1,41 @@
 # Paper-Reading
 
+项目地址：https://github.com/cins-china/paper-reading
+
+团队介绍：该项目主要是组内在研读顶会论文过程中，所见、所思、所想、所闻，希望组内思想碰撞以出现新的Idea。
 
 
-# Details
+
+## Group Member
+
+- 张巍 	weizhang-git-zw(https://github.com/weizhang-git-zw)
+- 杨洋	yeung2y(https://github.com/yeung2y)
+- 黄金城	huangJC0429(https://github.com/huangJC0429)
+- 李丽	Lily029106(https://github.com/Lily029106)
+- 陈娜	nachen-na(https://github.com/nachen-na)
+- 李国伟 	lgw9527111(https://github.com/lgw9527111)
+- 胡诗琪 	Nancy206-hu(https://github.com/Nancy206-hu)
+
+
+
+## Details
 [:arrow_up:](#table-of-contents)
 
-#### 2021.08
- <details/>
-<summary/>
-  <a href="https://transacl.org/ojs/index.php/tacl/article/view/1853">Spanbert: Improving pre-training by representing and predicting spans</a>  --- SpanBERT--- by<i> Mandar Joshi, Danqi Chen, Yinhan Liu, Daniel S. Weld, Luke Zettlemoyer, Omer Levy
-</a>(<a href="https://github.com/facebookresearch/SpanBERT">Github</a>)</summary><blockquote><p align="justify">
-We present SpanBERT, a pre-training method that is designed to better represent and predict spans of text. Our approach extends BERT by (1) masking contiguous random spans, rather than random tokens, and (2) training the span boundary representations to predict the entire content of the masked span, without relying on the individual token representations within it. SpanBERT consistently outperforms BERT and our better-tuned baselines, with substantial gains on span selection tasks such as question answering and coreference resolution. In particular, with the same training data and model size as BERT-Large, our single model obtains 94.6% and 88.7% F1 on SQuAD 1.1 and 2.0 respectively. We also achieve a new state of the art on the OntoNotes coreference resolution task (79.6% F1), strong performance on the TACRED relation extraction benchmark, and even gains on GLUE.
+#### 2021.08.01
+- [【关于SpanBert】研讨](https://github.com/cins-china/paper-reading/bert_study/spanbert/)
 
-  主要贡献：Span Mask机制，不再对随机的单个token添加mask，随机对邻接分词添加mask；Span Boundary Objective(SBO)训练，使用分词边界表示预测被添加mask分词的内容；一个句子的训练效果更好。
+  - 论文：SpanBERT: Improving Pre-training by Representing and Predicting Spans
 
-</p></blockquote></details>
+  - 论文地址：https://arxiv.org/abs/1907.10529
 
+  - github：https://github.com/facebookresearch/SpanBERT
+
+  - 动机：旨在更好地表示和预测文本的 span;
+
+  - 论文方法->扩展了BERT：
+
+    - （1）屏蔽连续的随机 span，而不是随机标记；
+
+    - （2）训练 span 边界表示来预测屏蔽 span 的整个内容，而不依赖其中的单个标记表示。
+
+      
