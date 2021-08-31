@@ -21,22 +21,27 @@
 ## Details
 [:arrow_up:](#table-of-contents)
 
-#### 2021.08.01
-- [【关于SpanBert】研讨](https://github.com/cins-china/paper-reading/bert_study/spanbert/)
+#### 2021.08.30
+- 【关于IMP-GCN】研讨
 
-  - 论文：SpanBERT: Improving Pre-training by Representing and Predicting Spans
+  - 论文: Interest-aware Message-Passing GCN for Recommendation
 
-  - 论文地址：https://arxiv.org/abs/1907.10529
+  - 论文地址: https://arxiv.org/pdf/2102.10044.pdf
 
-  - github：https://github.com/facebookresearch/SpanBERT
+  - 动机: 旨在解决GCN过平滑问题
 
-  - 动机：旨在更好地表示和预测文本的 span;
+  - 论文方法:
 
-  - 论文方法->扩展了BERT：
+    - (1) 增加一个子图生成模块，对用户节点进行分组，使兴趣相似的用户为一组；
 
-    - （1）屏蔽连续的随机 span，而不是随机标记；
-
-    - （2）训练 span 边界表示来预测屏蔽 span 的整个内容，而不依赖其中的单个标记表示。
+    - (2) 一阶传播作用于整个图，高阶传播作用于子图内部，最后将每一层加权求和得到嵌入。
 
       
 
+- 【关于医学图像分类 ChestX-ray8】研讨
+  - 论文: ChestX-ray8: Hospital-scale Chest X-ray Database and Benchmarks on Weakly-Supervised Classification and Localization of Common Thorax Diseases
+  - 论文地址: https://arxiv.org/pdf/1705.02315.pdf
+  - 动机: 旨在更好地进行医学图像诊断分类
+  - 论文方法:
+    - (1) 将NLP和DCNN结合起来对病理进行诊断和定位；
+    - (2) 移除了CNN中的全连接层，加入了过渡层、全局池化层、预测层和损失层。
