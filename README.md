@@ -83,3 +83,13 @@ CCF会议的截止日期: https://ccfddl.github.io/
      - （1）基本事实：具有最大值注意力权重的上下文词对输入句的情感预测有最大的影响。
      - （2）以一种渐进的自监督注意学习方法，自动从训练语料库中挖掘有用的注意监督信息，从而在模型训练过程中约束注意力机制的学习。
      - （3）通过迭代训练MN、TNet神经模型获得监督信息。
+
+#### 2021.10.11
+
+- 【关于时空注意力机制】研讨
+ 	- 论文：CBAM: Convolutional Block Attention Module
+	- 论文地址：https://openaccess.thecvf.com/content_ECCV_2018/papers/Sanghyun_Woo_Convolutional_Block_Attention_ECCV_2018_paper.pdf
+	- 动机：利用时空注意力机制增强CNN模型的表征能力。
+	- 论文方法：
+		- （1）提出卷积注意模块(CBAM)，从通道和空间两个维度计算feature map的attention map。
+		- （2）将attention map与输入的feature map相乘来进行特征的自适应学习；
