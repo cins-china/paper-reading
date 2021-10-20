@@ -87,17 +87,17 @@ CCF会议的截止日期: https://ccfddl.github.io/
 #### 2021.10.11
 
 - 【关于时空注意力机制】研讨
- 	- 论文：CBAM: Convolutional Block Attention Module
-	- 论文地址：https://openaccess.thecvf.com/content_ECCV_2018/papers/Sanghyun_Woo_Convolutional_Block_Attention_ECCV_2018_paper.pdf
-	- 动机：利用时空注意力机制增强CNN模型的表征能力。
-	- 论文方法：
-		- （1）提出卷积注意模块(CBAM)，从通道和空间两个维度计算feature map的attention map。
-		- （2）将attention map与输入的feature map相乘来进行特征的自适应学习；
+   - 论文：CBAM: Convolutional Block Attention Module
+   - 论文地址：https://openaccess.thecvf.com/content_ECCV_2018/papers/Sanghyun_Woo_Convolutional_Block_Attention_ECCV_2018_paper.pdf
+   - 动机：利用时空注意力机制增强CNN模型的表征能力。
+   - 论文方法：
+     - （1）提出卷积注意模块(CBAM)，从通道和空间两个维度计算feature map的attention map。
+     - （2）将attention map与输入的feature map相乘来进行特征的自适应学习。
 -  【关于图推荐综述】研讨
-	- 论文：Graph Neural Networks for Recommender Systems:Challenges, Methods, and Directions
-	- 论文地址：https://arxiv.org/abs/2109.12843
-	- 动机：提供一个系统和全面的研究工作。
-	- 论文方法：
-		-（1）从阶段、场景、目标和应用四个方面对推荐系统的研究进行了分类。
-		-（2)   特别是如何改进图神经网络的推荐和解决相应的挑战。
+    - 论文：Graph Neural Networks for Recommender Systems:Challenges, Methods, and Directions
+    - 论文地址：https://arxiv.org/abs/2109.12843
+    - 动机：提供一个系统和全面的研究工作。
+    - 论文方法：
+      - （1）从阶段、场景、目标和应用四个方面对推荐系统的研究进行了分类。
+      - （2)   特别是如何改进图神经网络的推荐和解决相应的挑战。
 
