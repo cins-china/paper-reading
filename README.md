@@ -99,5 +99,34 @@ CCF会议的截止日期: https://ccfddl.github.io/
     - 动机：提供一个系统和全面的研究工作。
     - 论文方法：
       - （1）从阶段、场景、目标和应用四个方面对推荐系统的研究进行了分类。
-      - （2)   特别是如何改进图神经网络的推荐和解决相应的挑战。
+      - （2) 特别是如何改进图神经网络的推荐和解决相应的挑战。
 
+#### 2021.10.25
+
+- 【关于自适应多通道图机制】研讨
+    - 论文：AM-GCN: Adaptive Multi-channel Graph Convolutional
+    - 论文地址：https://dl.acm.org/doi/abs/10.1145/3394486.3403177
+    - 动机：GCN从拓扑结构和节点特征中学习并融合了哪些信息。
+    - 论文方法：
+      - （1）通过节点特征利用余弦相似性构建k最近邻居拓扑图。
+      - （2) 将特征拓扑图和结构拓扑图分别卷积和共享卷积得到节点特征。
+      - （3）对得出来的特征学习权重。
+-  【关于多标签图像分类问题】研讨
+    - 论文：Residual Attention A Simple but Effective Method for Multi-Label Recognition
+    - 论文地址：https://arxiv.org/pdf/2108.02456.pdf
+    - 动机：利用特征的空间注意力得分提升多标签图像分类效果。
+    - 论文方法：
+      - （1）提出残差注意力模块(CSRA)，结合spatial pooling和average pooling来计算每个类别在不同空间位置上出现的概率；
+      - （2) 引入了multi-head attention的方式来避免公式中参数调参。
+
+#### 2021.11.01
+
+- 【关于分型网络】研讨
+   - 论文：A Hierarchical Graph Network for 3D Object Detection on Point Clouds
+   - 论文地址：https://www.aminer.cn/pub/5eccb534e06a4c1b26a834c7?conf=cvpr2020
+   - 动机：更好的去做3D目标检测
+   - 论文方法：
+     - （1）开发了一种新的层级图网络（HGNet），用于在点云上进行 3D 对象检测，其表现好于已有方法。
+     - （2）提出了一种新颖的 SA-（De）GConv，它可以有效地聚合特征并捕获点云中对象的形状信息。
+     - （3）构建了一个新的 GU-net，用于生成多级特征，这对于 3D 对象检测至关重要。
+     - （4）构建了一个新的 GU-net，用于生成多级特征，这对于 3D 对象检测至关重要。
