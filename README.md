@@ -76,6 +76,7 @@ CCF会议的截止日期: https://ccfddl.github.io/
 #### 2021.09.27
 
 - 【关于自动获取注意监督信息】研讨
+   
    - 论文：Progressive Self-Supervised Attention Learning for Aspect-Level Sentiment Analysis
    - 论文地址：https://arxiv.org/abs/1906.01213
    - 动机：旨在自动从训练语料库中挖掘有用的注意监督信息，以细化注意机制。
@@ -87,13 +88,16 @@ CCF会议的截止日期: https://ccfddl.github.io/
 #### 2021.10.11
 
 - 【关于时空注意力机制】研讨
-   - 论文：CBAM: Convolutional Block Attention Module
+  
+  - 论文：CBAM: Convolutional Block Attention Module
    - 论文地址：https://openaccess.thecvf.com/content_ECCV_2018/papers/Sanghyun_Woo_Convolutional_Block_Attention_ECCV_2018_paper.pdf
    - 动机：利用时空注意力机制增强CNN模型的表征能力。
    - 论文方法：
      - （1）提出卷积注意模块(CBAM)，从通道和空间两个维度计算feature map的attention map。
      - （2）将attention map与输入的feature map相乘来进行特征的自适应学习。
+
 -  【关于图推荐综述】研讨
+    
     - 论文：Graph Neural Networks for Recommender Systems:Challenges, Methods, and Directions
     - 论文地址：https://arxiv.org/abs/2109.12843
     - 动机：提供一个系统和全面的研究工作。
@@ -104,6 +108,7 @@ CCF会议的截止日期: https://ccfddl.github.io/
 #### 2021.10.25
 
 - 【关于自适应多通道图机制】研讨
+    
     - 论文：AM-GCN: Adaptive Multi-channel Graph Convolutional
     - 论文地址：https://dl.acm.org/doi/abs/10.1145/3394486.3403177
     - 动机：GCN从拓扑结构和节点特征中学习并融合了哪些信息。
@@ -111,7 +116,9 @@ CCF会议的截止日期: https://ccfddl.github.io/
       - （1）通过节点特征利用余弦相似性构建k最近邻居拓扑图。
       - （2) 将特征拓扑图和结构拓扑图分别卷积和共享卷积得到节点特征。
       - （3）对得出来的特征学习权重。
+
 -  【关于多标签图像分类问题】研讨
+    
     - 论文：Residual Attention A Simple but Effective Method for Multi-Label Recognition
     - 论文地址：https://arxiv.org/pdf/2108.02456.pdf
     - 动机：利用特征的空间注意力得分提升多标签图像分类效果。
@@ -122,6 +129,7 @@ CCF会议的截止日期: https://ccfddl.github.io/
 #### 2021.11.01
 
 - 【关于分型网络】研讨
+   
    - 论文：A Hierarchical Graph Network for 3D Object Detection on Point Clouds
    - 论文地址：https://www.aminer.cn/pub/5eccb534e06a4c1b26a834c7?conf=cvpr2020
    - 动机：更好的去做3D目标检测
@@ -130,3 +138,12 @@ CCF会议的截止日期: https://ccfddl.github.io/
      - （2）提出了一种新颖的 SA-（De）GConv，它可以有效地聚合特征并捕获点云中对象的形状信息。
      - （3）构建了一个新的 GU-net，用于生成多级特征，这对于 3D 对象检测至关重要。
      - （4）构建了一个新的 GU-net，用于生成多级特征，这对于 3D 对象检测至关重要。
+
+- 【关于方面级情感三元组提取】研讨
+   
+   - 论文：Learning Span-Level Interactions for Aspect Sentiment Triplet Extraction
+   - 论文地址：https://arxiv.org/pdf/2107.12214.pdf
+   - 动机：提出一个基于跨度的ASTE模型来解决三元组抽取这个任务
+   - 论文方法：
+     - （1）这篇论文提出一种span-level方法Span-ASTE来学习target spans 和opinion spans之间的交互作用。
+     - （2）提出了一种双通道跨度剪枝策略，结合了来自ATE和OTE任务的显式监督，以减轻跨度枚举带来的高计算成本。
