@@ -148,6 +148,18 @@ CCF会议的截止日期: https://ccfddl.github.io/
      - （1）这篇论文提出一种span-level方法Span-ASTE来学习target spans 和opinion spans之间的交互作用。
      - （2）提出了一种双通道跨度剪枝策略，结合了来自ATE和OTE任务的显式监督，以减轻跨度枚举带来的高计算成本。
 
+#### 2021.11.15
+
+- 【关于方面级情感分析中语法依赖】研讨
+   
+   - 论文：Relational Graph Attention Network for Aspect-based Sentiment Analysis
+   - 论文地址：https://arxiv.org/pdf/2004.12362.pdf
+   - 动机：构建一种基于方面的依存树并通过Relational -GCN，来解决依赖关系不同和多个方面之间互相影响的问题。
+   - 论文方法：
+     - （1）提出一种新的基于方面的依存树，给每一个方面一个唯一的依存树，解决多个方面之间相互影响的问题；
+     - （2）提出一种Relational -GCN模型，对不同的依赖关系进行嵌入并基于不同的注意权重，解决依赖关系不同对任务贡献不同的问题。
+
+
 #### 2021.11.22
 
 - 【关于置信度的GCN】研讨
