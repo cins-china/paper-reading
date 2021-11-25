@@ -147,3 +147,15 @@ CCF会议的截止日期: https://ccfddl.github.io/
    - 论文方法：
      - （1）这篇论文提出一种span-level方法Span-ASTE来学习target spans 和opinion spans之间的交互作用。
      - （2）提出了一种双通道跨度剪枝策略，结合了来自ATE和OTE任务的显式监督，以减轻跨度枚举带来的高计算成本。
+
+#### 2021.11.22
+
+- 【关于置信度的GCN】研讨
+   
+   - 论文：Confidence-based Graph Convolutional Networks for Semi-Supervised Learning
+   - 论文地址：https://arxiv.org/abs/1901.08255
+   - 动机：弥补GCN背景下的置信度估计这一空白。
+   - 论文方法：
+     - （1）联合估计标签分数及其置信度；
+     - （2）使用估计的置信度来确定一个节点在邻域聚合期间对另一个节点的影响，使得模型邻居聚合时各向异性(anisotropic)。
+
