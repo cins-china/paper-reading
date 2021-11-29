@@ -148,6 +148,17 @@ CCF会议的截止日期: https://ccfddl.github.io/
      - （1）这篇论文提出一种span-level方法Span-ASTE来学习target spans 和opinion spans之间的交互作用。
      - （2）提出了一种双通道跨度剪枝策略，结合了来自ATE和OTE任务的显式监督，以减轻跨度枚举带来的高计算成本。
 
+#### 2021.11.08
+
+- 【关于分离句内和句间文档级关系推理】研讨
+   
+   - 论文：SIRE Separate Intra- and Inter-sentential Reasoning for Document-level Relation Extraction
+   - 论文地址：https://arxiv.org/pdf/2106.01709.pdf
+   - 动机：现有的图方法视该问题为一个表征学习问题，使用实体作为节点构造文档图，并不是所有的实体对都有正确的逻辑推理路径  
+   - 论文方法：
+     - （1）分别表示句子内和句子间的关系  
+     - （2）一种新的逻辑推理形式，尽可能涵盖了逻辑推理链的所有案例  
+
 #### 2021.11.15
 
 - 【关于方面级情感分析中语法依赖】研讨
