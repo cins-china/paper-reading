@@ -154,7 +154,8 @@ CCF会议的截止日期: https://ccfddl.github.io/
    
    - 论文：SIRE Separate Intra- and Inter-sentential Reasoning for Document-level Relation Extraction
    - 论文地址：https://arxiv.org/pdf/2106.01709.pdf
-   - 动机：现有的图方法视该问题为一个表征学习问题，使用实体作为节点构造文档图，并不是所有的实体对都有正确的逻辑推理路径  
+   - 分享汇报：唐国根
+   - 动机：现有的图方法视该问题为一个表征学习问题，使用实体作为节点构造文档图，并不是所有的实体对都有正确的逻辑推理路径 
    - 论文方法：
      - （1）分别表示句子内和句子间的关系  
      - （2）一种新的逻辑推理形式，尽可能涵盖了逻辑推理链的所有案例  
@@ -165,6 +166,7 @@ CCF会议的截止日期: https://ccfddl.github.io/
    
    - 论文：Relational Graph Attention Network for Aspect-based Sentiment Analysis
    - 论文地址：https://arxiv.org/pdf/2004.12362.pdf
+   - 分享汇报：李丽
    - 动机：构建一种基于方面的依存树并通过Relational -GCN，来解决依赖关系不同和多个方面之间互相影响的问题。
    - 论文方法：
      - （1）提出一种新的基于方面的依存树，给每一个方面一个唯一的依存树，解决多个方面之间相互影响的问题；
@@ -177,8 +179,31 @@ CCF会议的截止日期: https://ccfddl.github.io/
    
    - 论文：Confidence-based Graph Convolutional Networks for Semi-Supervised Learning
    - 论文地址：https://arxiv.org/abs/1901.08255
+   - 分享汇报：黄睿
    - 动机：弥补GCN背景下的置信度估计这一空白。
    - 论文方法：
      - （1）联合估计标签分数及其置信度；
      - （2）使用估计的置信度来确定一个节点在邻域聚合期间对另一个节点的影响，使得模型邻居聚合时各向异性(anisotropic)。
 
+
+#### 2021.12.01
+
+- 【关于GCN中过平滑和异质性问题】研讨
+   
+   - 论文：Two Sides of the Same Coin Heterophily and Oversmoothing in Graph Convolutional Neural Networks
+   - 论文地址：https://arxiv.org/abs/2102.06462v5
+   - 分享汇报：张阿聪
+   - 动机：从统一的角度分析过平滑和异质性问题， 找到并解决造成的原因。
+   - 论文方法：
+     - （1）通过理论推导和实验分析，在同质性和低节点度下会造成伪异质性来解释过平滑；
+     - （2）提出信号消息分别对有效信息和无效信息进行传递，提出放缩度的方法，对低度节点的度修正。
+   
+ - 【关于动态社交网络神经建模】研讨
+   
+   - 论文：Neural Modeling of Behavioral Patterns in Dynamic Social Interaction Networks
+   - 论文地址：https://www-cs.stanford.edu/people/jure/pubs/tedic-www21.pdf
+   - 分享汇报：李攀
+   - 动机：从动态社会交互网络中挖掘指示性特征用来预测人的社交行为。
+   - 论文方法：
+     - （1）通过网络扩散过程来学习人们对各种社会任务的交互作用；
+     - （2）通过集合池收集随机分布在整个长时间空间中的局部模式。
