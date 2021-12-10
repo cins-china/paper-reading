@@ -207,3 +207,25 @@ CCF会议的截止日期: https://ccfddl.github.io/
    - 论文方法：
      - （1）通过网络扩散过程来学习人们对各种社会任务的交互作用；
      - （2）通过集合池收集随机分布在整个长时间空间中的局部模式。
+  
+#### 2021.12.10
+
+- 【关于GCN中过平滑和异质性问题】研讨
+   
+   - 论文： Graph Attention Collaborative Similarity Embedding for Recommender System
+   - 论文地址：https://arxiv.org/abs/2102.03135
+   - 分享汇报：赵晋松
+   - 动机：从邻居权重以及损失函数上进行改进。
+   - 论文方法：
+     - （1）采用注意力机制对每个节点的不同邻居进行打分作为权重；
+     - （2）提出一种自适应裕度的BPR损失再加上用户之间物品之间的相似性作为辅助损失函数。
+ 
+- 【关于通道注意力和组卷积】研讨
+   
+   - 论文： ResNeSt: Split-Attention Networks
+   - 论文地址：https://hangzhang.org/files/resnest.pdf
+   - 分享汇报：胡诗琪
+   - 动机：结合了通道注意力和分组卷积来提升网络性能。
+   - 论文方法：
+     - （1）ResNeSt借鉴了SE-Net和SK-Net的思想；
+     - （2）提出ResNeSt Block，结合了通道注意力和分组卷积。
