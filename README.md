@@ -229,3 +229,44 @@ CCF会议的截止日期: https://ccfddl.github.io/
    - 论文方法：
      - （1）ResNeSt借鉴了SE-Net和SK-Net的思想；
      - （2）提出ResNeSt Block，结合了通道注意力和分组卷积。
+#### 2021.12.17
+
+- 【关于分型网络】研讨
+   
+   - 论文： Local Migration Model of lmages Based onDeep Learning against Adversarial Attacks
+   - 论文地址：https://www.ieee.org/publications/rights/index.html
+   - 分享汇报：李国伟
+   - 动机：通过利用风格迁移攻击图像优化模型。
+   - 论文方法：
+     - （1）在风格迁移的基础上，使用了单区域和多区域攻击方式，通过攻击前景、后景和像素点达到不同的攻击效果。
+ 
+- 【】研讨
+   
+   - 论文： 
+   - 论文地址：
+   - 分享汇报：唐国根
+   - 动机：
+   - 论文方法：
+     - （1）
+     - （2）
+
+#### 2021.12.22
+
+- 【】研讨
+   
+   - 论文： 
+   - 论文地址：
+   - 分享汇报：李丽
+   - 动机：
+   - 论文方法：
+     - （1）
+     - （2）
+ 
+- 【图随机网络GRAND】研讨
+   
+   - 论文： Graph Random Neural Networks for Semi-Supervised Learning on Graphs
+   - 论文地址：https://arxiv.org/pdf/2005.11079.pdf
+   - 分享汇报：黄金诚
+   - 动机：增强节点表示，并且约束一致性。
+   - 论文方法：
+     - （1）提出了随机传播S次的DropNode节点特征增强方法，并且约束每一次的confidence都和最后该节点confidence保持一致。
