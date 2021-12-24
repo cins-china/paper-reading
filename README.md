@@ -230,9 +230,9 @@ CCF会议的截止日期: https://ccfddl.github.io/
      - （1）ResNeSt借鉴了SE-Net和SK-Net的思想；
      - （2）提出ResNeSt Block，结合了通道注意力和分组卷积。
 
-#### 2021.12.18
+#### 2021.12.17
 
-- 【关于语义分割应用在文档级关系抽取】研讨
+- 【关于分型网络】研讨
    
    - 论文： Document-level Relation Extraction as Semantic Segmentation
    - 论文地址：https://arxiv.org/pdf/2106.03618.pdf
@@ -243,3 +243,32 @@ CCF会议的截止日期: https://ccfddl.github.io/
      - （2）引入语义分割Unet模型，能捕捉局部上下文信息，又能捕捉三元组之间的全局依赖关系。
      - （3）实体-实体关系矩阵上的卷积可以隐式地进行实体之间的关系推理。
  
+ - 【关于语义分割应用在文档级关系抽取】研讨
+   
+   - 论文： Local Migration Model of lmages Based onDeep Learning against Adversarial Attacks
+   - 论文地址：https://www.ieee.org/publications/rights/index.html
+   - 分享汇报：李国伟
+   - 动机：通过利用风格迁移攻击图像优化模型
+   - 论文方法：
+     - （1）在风格迁移的基础上，使用了单区域和多区域攻击方式，通过攻击前景、后景和像素点达到不同的攻击效果。
+
+#### 2021.12.22
+
+- 【关于双向表示增强问题】研讨
+   
+   - 论文： METNet A Mutual Enhanced Transformation Network for Aspect-based Sentiment Analysis
+   - 论文地址：https://arxiv.org/pdf/2106.03618.pdf
+   - 分享汇报：李丽
+   - 动机：通过双向的方式增强文本和方面的表征，特征的质量直接影响分类的精度。
+   - 论文方法：
+     - （1）METNet中的方面增强模块利用上下文语义特征改进了方面的表示学习，为方面提供了更丰富的信息;
+     - （2）METNet设计并实现了一个层次结构，该结构迭代地增强了方面和上下文的表示。
+ 
+ - 【图随机网络GRAND】研讨
+   
+   - 论文：Graph Random Neural Networks for Semi-Supervised Learning on Graphs
+   - 论文地址：https://arxiv.org/pdf/2005.11079.pdf
+   - 分享汇报：黄金诚
+   - 动机：增强节点表示，并且约束一致性。
+   - 论文方法：
+     - （1）提出了随机传播S次的DropNode节点特征增强方法，并且约束每一次的confidence都和最后该节点confidence保持一致。
