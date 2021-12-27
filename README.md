@@ -272,3 +272,25 @@ CCF会议的截止日期: https://ccfddl.github.io/
    - 动机：增强节点表示，并且约束一致性。
    - 论文方法：
      - （1）提出了随机传播S次的DropNode节点特征增强方法，并且约束每一次的confidence都和最后该节点confidence保持一致。
+
+#### 2021.12.27
+
+- 【基于方面情感分类的依赖图增加双向-transformer】研讨
+   
+   - 论文： Dependency Graph Enhanced Dual-transformer Structure for Aspect-based Sentiment Classification
+   - 论文地址：https://www.aclweb.org/anthology/2020.acl-main.588.pdf
+   - 分享汇报：李攀
+   - 动机：传统的transformer和基于依赖树的BiGCN能够实现适当平衡。
+   - 论文方法：
+     - （1）基于BiLSTM/Bert编码获得句子的上下文表示;
+     - （2）然后将表示送入一种双向的transformer结构来支持“水平表示学习”与“基于图神经网络的表示学习”之间交互地学习；
+     - （3）最后通过MaxPooling得到Aspect表示，再根据Attention机制来识别与Aspect相关的上下文词。
+ 
+ - 【】研讨
+   
+   - 论文：
+   - 论文地址：
+   - 分享汇报：陈娜
+   - 动机：
+   - 论文方法：
+     - （1）。
