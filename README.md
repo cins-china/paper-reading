@@ -210,12 +210,12 @@ CCF会议的截止日期: https://ccfddl.github.io/
   
 #### 2021.12.10
 
-- 【关于GCN中过平滑和异质性问题】研讨
+- 【关于邻居权重和损失函数】研讨
    
    - 论文： Graph Attention Collaborative Similarity Embedding for Recommender System
    - 论文地址：https://arxiv.org/abs/2102.03135
    - 分享汇报：赵晋松
-   - 动机：从邻居权重以及损失函数上进行改进。
+   - 动机：从不同邻居的重要性不同以及BPR损失的缺陷进行改进。
    - 论文方法：
      - （1）采用注意力机制对每个节点的不同邻居进行打分作为权重；
      - （2）提出一种自适应裕度的BPR损失再加上用户之间物品之间的相似性作为辅助损失函数。
@@ -296,3 +296,26 @@ CCF会议的截止日期: https://ccfddl.github.io/
      - （1）设计标签聚合器：从其上下文节点聚合每个标记节点的标签信息，来估计其类别概率分布
      - （2）根据训练集节点的类别概率分布设计样本重新加权策略
      - （3）根据类别概率分布对训练集节点进行标签校准
+
+#### 2022.01.10
+
+- 【关于深层GCN的过平滑问题】研讨
+   
+   - 论文： Dirichlet Energy Constrained Learning for Deep Graph Neural Networks
+   - 论文地址：https://www.zhuanzhi.ai/paper/fa888970498d4ccb46392d5c7c0ab15b
+   - 分享汇报：张阿聪
+   - 动机：通过Dirichlet Energy约束学习原则指导训练深层模型。
+   - 论文方法：
+     - （1）根据理论推导得出能量值的上下界的范围，值越小，表现过平滑，值大，同类节点过度分离;
+     - （2）通过权重参数正交初始化和正则化，残差连接来约束能量。
+
+- 【基于四元数的图卷积网络】研讨
+   
+   - 论文： Quaternion-Based Graph Convolution Network for Recommendation
+   - 论文地址：https://arxiv.org/pdf/2111.10536.pdf
+   - 分享汇报：赵晋松
+   - 动机：欧式空间建模的不足以及四元数空间更好的表示性。
+   - 论文方法：
+     - （1）将用户物品嵌入到四元数空间；
+     - （2）并通过四元数特征变换进行消息传播；
+     - （3）最后将每一层采用均值池化得到最终的嵌入并进行推荐。
