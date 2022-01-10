@@ -193,7 +193,7 @@ CCF会议的截止日期: https://ccfddl.github.io/
    - 论文：Two Sides of the Same Coin Heterophily and Oversmoothing in Graph Convolutional Neural Networks
    - 论文地址：https://arxiv.org/abs/2102.06462v5
    - 分享汇报：张阿聪
-   - 动机：从统一的角度分析过平滑和异质性问题， 找到并解决造成的原因。
+   - 动机：分析过平滑和异质性问题， 找到并解决造成的原因。
    - 论文方法：
      - （1）通过理论推导和实验分析，在同质性和低节点度下会造成伪异质性来解释过平滑；
      - （2）提出信号消息分别对有效信息和无效信息进行传递，提出放缩度的方法，对低度节点的度修正。
