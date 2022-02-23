@@ -321,9 +321,9 @@ CCF会议的截止日期: https://ccfddl.github.io/
      - （3）最后将每一层采用均值池化得到最终的嵌入并进行推荐。
 
 
-#### 2022.01.10
+#### 2022.02.14
 
-- 【关于深层GCN的过平滑问题】研讨
+- 【证据增强的文档级关系抽取框架】研讨
    
    - 论文： EIDER: Evidence-enhanced Document-level Relation Extraction
    - 论文地址：https://arxiv.org/pdf/2106.08657.pdf
