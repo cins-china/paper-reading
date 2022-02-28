@@ -333,4 +333,14 @@ CCF会议的截止日期: https://ccfddl.github.io/
      - （1）证据增强的关系抽取框架，自动提取证据并有效地利用提取的证据（用于推测关系的最小的句子集合）以提高DocRE的性能。
      - （2）通过使用混合层来优化模型推理阶段，将原始文档的预测结果与提取的证据融合在一起，使模型更关注重要的句子而不会丢失信息。
 
+#### 2022.02.28
 
+- 【关于改进目标检测算法】研讨
+   
+   - 论文： R-FCN: Object Detection via Region-based Fully Convolutional Networks
+   - 论文地址：https://arxiv.org/pdf/1605.06409v2.pdf
+   - 分享汇报：胡诗琪
+   - 动机：从分类和检测两方面来提高目标检测的速度。
+   - 论文方法：
+     - （1）仅使用ResNet卷积层（去掉全连接层）来提取图像特征；
+     - （2）提出位置敏感图（Position-sensitive score maps）和对应的Position-sensitive ROI Pooling，有效的编码了目标的空间位置信息，增强了位置敏感性。
