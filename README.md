@@ -354,3 +354,25 @@ CCF会议的截止日期: https://ccfddl.github.io/
    - 论文方法：
      - （1）仅使用ResNet卷积层（去掉全连接层）来提取图像特征；
      - （2）提出位置敏感图（Position-sensitive score maps）和对应的Position-sensitive ROI Pooling，有效的编码了目标的空间位置信息，增强了位置敏感性。
+#### 2022.03.12
+
+- 【深层图卷积的过平滑问题】研讨
+   
+   - 论文： SkipNode: On Alleviating Over-smoothing for Deep Graph Convolutional Networks
+   - 论文地址：https://arxiv.org/abs/2112.11628
+   - 分享汇报：张阿聪
+   - 动机：用一种即插即用的方法缓解过平滑。
+   - 论文方法：
+     - （1）通过随机或者基于节点度采样一部分节点只进行传递自身信息，不聚合邻居信息；
+     - （2）将这种采样节点进行跳跃卷积的方法可以应用于大部分基线模型。
+
+- 【关于对比学习在推荐上应用】研讨
+   
+   - 论文： Improving Graph Collaborative Filtering with Neighborhood-enriched Contrastive Learning
+   - 论文地址：https://arxiv.org/pdf/2202.06200.pdf
+   - 分享汇报：赵晋松
+   - 动机：来缓解数据的稀疏性，充分利用对比学习的潜力
+   - 论文方法：
+     - （1）提出了一种新的对比学习范式，称为邻域丰富的对比学习（NCL），以明确地捕捉潜在的节点关联性，用于图形协同过滤的对比学习。
+     - （2）从图形结构和语义空间两个方面考虑用户（或项目）的邻居。
+     - （3）首先，为了利用交互图上的结构邻居，开发了一种新的结构对比目标，可以与基于GNN的协同过滤方法相结合。其次，为了利用语义邻域，通过聚类嵌入并将语义邻域合并到原型对比目标中，来获得用户项的原型。
