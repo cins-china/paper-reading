@@ -7,6 +7,38 @@
 ## Notes:
 
 CCF会议的截止日期: https://ccfddl.github.io/
+### Accepted papers list（2021.11.2）
+2022年顶会 Accepted papers list - 持续更新 : https://blog.csdn.net/lijinde07/article/details/122651155?spm=1001.2014.3001.5502
+
+AAAI 2021 全文：https://dblp.uni-trier.de/db/conf/aaai/aaai2021.html
+
+ICLR 2021 ：https://openreview.net/group?id=ICLR.cc/2021/Conference
+
+CVPR 2021 ：全文 https://openaccess.thecvf.com/CVPR2021?day=all
+
+ACL-IJCNLP 2021 ：接收列表https://2021.aclweb.org/registration/accept/
+
+ICML 2021 ：全文: http://proceedings.mlr.press/v139/
+
+IJCAI 2021 ：全文: https://www.ijcai.org/proceedings/2021/
+
+ICCV 2021 ：全文: https://openaccess.thecvf.com/ICCV2021?day=all
+
+ACM MM 2021 ：接收列表: https://2021.acmmm.org/main-track-list
+
+NeurIPS 2021 ：接收列表: https://neurips.cc/Conferences/2021/AcceptedPapersInitial
+
+### 论文下载地址
+NeurIPS Proceedings(1987-2021)https://proceedings.neurips.cc/
+
+ICML(2013-2021)http://proceedings.mlr.press/
+
+CVPR(2013-2021)/ICCV(2013-2021)https://openaccess.thecvf.com/menu
+
+ICLR(2013-2021)https://openreview.net/group?id=ICLR.cc
+
+ECCV(2018/2020)http://www.ecva.net/papers.php
+
 
 ## Group Member
 
