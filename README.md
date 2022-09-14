@@ -55,6 +55,9 @@ ECCV(2018/2020)http://www.ecva.net/papers.php
 - 李攀	bert-ply(https://github.com/bert-ply)
 - 张阿聪	zac-hub(https://github.com/zac-hub)
 - 王泓淏 Assassinswhh（https://github.com/Assassinswhh）
+- 朱鑫鹏 CharlieZhuZhu（https://github.com/CharlieZhuZhu）
+- 沈雅文 Cheesepackage （https://github.com/Cheesepackage）
+- 
 
 
 
