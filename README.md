@@ -58,6 +58,7 @@ ECCV(2018/2020)http://www.ecva.net/papers.php
 - 朱鑫鹏 CharlieZhuZhu（https://github.com/CharlieZhuZhu）
 - 沈雅文 Cheesepackage （https://github.com/Cheesepackage）
 - 蒋玉洁 Thealuv (https://github.com/Thealuv)
+- Echo-yajie（https://github.com/Echo-yajie）
 
 
 
