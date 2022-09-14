@@ -60,6 +60,7 @@ ECCV(2018/2020)http://www.ecva.net/papers.php
 - 蒋玉洁 Thealuv (https://github.com/Thealuv)
 - 李雅杰 Echo-yajie（https://github.com/Echo-yajie）
 - 高美琳 Lumenlin（https://github.com/Lumenlin）
+- NomanChowdhury（https://github.com/NomanChowdhury）
 
 
 
