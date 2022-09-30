@@ -7,6 +7,7 @@
 ## Notes:
 
 CCF会议的截止日期: https://ccfddl.github.io/
+https://www.aminer.cn/conf
 ### Accepted papers list（2021.11.2）
 2022年顶会 Accepted papers list - 持续更新 : https://blog.csdn.net/lijinde07/article/details/122651155?spm=1001.2014.3001.5502
 
