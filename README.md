@@ -413,7 +413,36 @@ ECCV(2018/2020)http://www.ecva.net/papers.php
    - 论文地址：https://arxiv.org/pdf/2202.06200.pdf
    - 分享汇报：赵晋松
    - 动机：来缓解数据的稀疏性，充分利用对比学习的潜力
-   - 论文方法：
+   - 论文方法： 
      - （1）提出了一种新的对比学习范式，称为邻域丰富的对比学习（NCL），以明确地捕捉潜在的节点关联性，用于图形协同过滤的对比学习。
      - （2）从图形结构和语义空间两个方面考虑用户（或项目）的邻居。
      - （3）首先，为了利用交互图上的结构邻居，开发了一种新的结构对比目标，可以与基于GNN的协同过滤方法相结合。其次，为了利用语义邻域，通过聚类嵌入并将语义邻域合并到原型对比目标中，来获得用户项的原型。
+### 2022.10.14
+- 【半监督层次图分类】
+   - 论文： Semi-Supervised Hierarchical Graph Classification
+   - 论文地址：https://arxiv.org/pdf/2206.05416
+   - 分享汇报：王泓淏
+   - 动机：使用半监督的方法对层次图进行分类，可以提高分类准确性。
+   - 论文方法：
+      - （1）以半监督的方式来对数据进行监督训练，使用了为标签技术。
+      - （2）从两个视角来看层次图分类，设计了两个分类器IC和HC。前者主要是对图实例进行分类，后者主要是对层次图进行分类。使用马尔科夫链证明了输入信息和最后输出新的一致性。
+      - （3）提出了HGMI层次图互信息这个新的指标，用来判断输入与输出是否一致。
+- 【谱图鲁棒性提升】
+   - 论文： GRANET：Reduced-Rank Topology Learning for Robust and Scalable Graph Neural Networks
+   - 论文地址： https://arxiv.org/pdf/2201.12741v2.pdf
+   - 分享汇报：沈雅文
+   - 动机：使用谱图嵌入和概率图模型来提高GNN模型的鲁棒性
+   - 论文方法：
+     - （1） 通过加权谱嵌入和K近邻算法构建一个基础图。
+     - （2） 通过概率图模型修建不重要的边进一步定义干净基础图G_base。
+     -  (3)  在阶段二的G_base基础上训练GNN模型以此来提高鲁棒性。
+### 2022.10.21
+
+- 【对抗生成网络】研讨
+   - 论文:  Protecting Facial Privacy：Generating Adversarial Identity Masks via Style-robust Makeup Transfer
+   - 论文地址：https://openaccess.thecvf.com/content/CVPR2022/papers/Hu_Protecting_Facial_Privacy_Generating_Adversarial_Identity_Masks_via_Style-Robust_Makeup_CVPR_2022_paper.pdf
+   - 分享汇报： 李国伟
+   - 动机：利用对抗样本对人脸图像的隐私保护，利用GAN的循环一致性产生具有风格的对抗样本
+   - 论文方法： 
+      - （1） 在GAN原有循环一致性基础上加入正则项，使得加入对抗后达成新的循环一致性。
+      - （2） 利用攻击集成模型，实现黑盒攻击。
