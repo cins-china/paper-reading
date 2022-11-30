@@ -446,3 +446,21 @@ ECCV(2018/2020)http://www.ecva.net/papers.php
    - 论文方法： 
       - （1） 在GAN原有循环一致性基础上加入正则项，使得加入对抗后达成新的循环一致性。
       - （2） 利用攻击集成模型，实现黑盒攻击。
+### 2022.11.29
+
+- 【异构图神经网络鲁棒性】研讨
+   - 论文： Robust Heterogeneous Graph Neural Networks against Adversarial Attacks
+   - 论文地址：https://www.aaai.org/AAAI22Papers/AAAI-11130.ZhangM.pdf
+   - 分享汇报： 沈雅文
+   - 动机：由于异构图的脆弱性，在节点分类中难以获得好的效果，在2019年发表的HAN模型基础上增加了概率先验准则和可区分的净化器，使其模型效果得到提升
+   - 论文方法：
+      - （1） 在HAN模型上增加了概率矩阵先验准则，相当于左边的随机游走
+      - （2） 之后增加一个可区分的净化器，选取T个可靠的邻居，屏蔽其他邻居
+- 【基于推荐信息瓶颈的对比图结构学习】研讨
+   - 论文： Contrastive Graph Structure Learning via Information Bottleneck for Recommendation
+   - 论文地址：https://openreview.net/pdf?id=lhl_rYNdiH6
+   - 分享汇报：赵晋松
+   - 动机：构建对推荐任务更好的图扩充，并减少流行偏见和噪声交互的能力
+   - 论文方法：
+     - （1） 通过自适应地丢弃节点和边来构建优化的图结构，以用于用户和项目的多视图表示学习，这为缓解流行偏见提供了理论依据
+     - （2） 将信息瓶颈集成到推荐的多视图对比学习过程中，有效地丢弃与下游推荐无关的信息
