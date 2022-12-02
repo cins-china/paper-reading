@@ -5,7 +5,7 @@
 团队介绍：该项目主要是组内在研读顶会论文过程中，所见、所思、所想、所闻，希望组内思想碰撞以出现新的Idea。
 
 ## Notes:
-
+数据库：https://www.nasa.gov/content/prognostics-center-of-excellence-data-set-repository
 CCF会议的截止日期: https://ccfddl.github.io/
 
 https://www.aminer.cn/conf
