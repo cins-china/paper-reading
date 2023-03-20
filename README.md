@@ -558,3 +558,11 @@ ECCV(2018/2020)http://www.ecva.net/papers.php
      -（1） 首先，作者引入Cayley–Dickson构造来探索高维超复形空间。Cayley-Dickson构造利用递归过程产生一系列超复数代数，称为Cayley-Dickson代数。
      -（2） 其次，基于Cayley-Dickson代数，作者设计了一个超复数图卷积算子，通过聚集超复数空间中的邻居信息来学习节点表示。
      -（3） 最后，一个超复数线性聚合器和一个超复杂交互聚合器。线性聚合器使用超复数和池来学习邻域的摘要。交互聚合器在中心节点和邻居嵌入之间应用超复数乘法来捕获邻居特征交互。
+- 【半监督任务】研讨
+   - 论文：SOFTMATCH: ADDRESSING THE QUANTITY-QUALITY TRADE-OFF IN SEMI-SUPERVISED LEARNING 
+   - 论文地址：https://arxiv.org/pdf/2301.10921.pdf
+   - 分享汇报：沈雅文
+   - 动机：由于现在大多数现实数据集处于无标签状态，需要合适的伪标签技术使得模型中引入大量的伪标签。
+   - 论文方法：
+     -（1） 在无监督损失中加入权重函数，并且权重函数服从截断高斯分布
+     -（2） 使用UA，让伪标签分布平均
