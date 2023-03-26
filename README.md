@@ -573,7 +573,7 @@ ECCV(2018/2020)http://www.ecva.net/papers.php
      - （1） 在无监督损失中加入权重函数，并且权重函数服从截断高斯分布
      - （2） 使用UA，让伪标签分布平均
 ### 2023.3.27
-- 【基于】
+- 【基于统一图神经网络中的随机删除】研讨
    - 论文：DropMessage: Unifying Random Dropping for Graph Neural Networks
    - 论文地址：https://arxiv.org/pdf/2204.10037.pdf
    - 分享汇报：赵晋松
