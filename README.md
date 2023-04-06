@@ -583,9 +583,10 @@ ECCV(2018/2020)http://www.ecva.net/papers.php
 ### 2023.4.3
 
 -【图对比学习】研讨
-  -论文：Neighbor Contrastive Learning on Learnable Graph Augmentation
-  -分享汇报：李攀
-  -动机：现有图对比学习视图增强策略会破坏图拓扑，现有的对比学习会不满足图同质性假设
-  -论文方法：
+  - 论文：Neighbor Contrastive Learning on Learnable Graph Augmentation
+  - 论文地址：https://arxiv.org/ftp/arxiv/papers/2301/2301.01404.pdf
+  - 分享汇报：李攀
+  - 动机：现有图对比学习视图增强策略会破坏图拓扑，现有的对比学习会不满足图同质性假设
+  - 论文方法：
    - （1）利用多头图注意力函数生成自适应增强视图，它与节点嵌入都是端到端的
    - （2）构建邻居对比损失，根据同质性假设，利用视图内和视图间的直接邻居作额外的正例样本，非一阶邻居作为负例
