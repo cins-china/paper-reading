@@ -598,3 +598,14 @@ ECCV(2018/2020)http://www.ecva.net/papers.php
    - 论文方法：
      - （1）随机地[MASK]图中的某一节点，然后使用GNN encoder编码图，生成code，在decoder阶段，对code再次进行[DMASK]，之后使用GNN decoder进行解码，最后对节点特征进行重建。
      - （2）使用缩放余弦误差作为特征重建的评价标准。
+### 2023.4.10
+
+-【图注意力网络】研讨
+  - 论文：HOW ATTENTIVE ARE GRAPH ATTENTION NETWORKS?
+  - 论文地址：https://openreview.net/forum?id=F72ximsx7C1
+  - 分享汇报：朱鑫鹏
+  - 动机：作者发现GAT的attention计算比较有局限性的，attention评分的排序不受query node的限制，不论query node怎么变，得到的attention weights的ranking结果是一样的，这样会导致有一些简单的图问题是GAT无法处理的。
+  - 论文方法：
+     - （1）证明了GAT的局限性，并将GAT注意力计算方式称为static attention。
+     - （2）提出了dynamic attention，给出了相应的证明，并且构建了dynamic attention，称为GATv2。
+
