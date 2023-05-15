@@ -608,4 +608,12 @@ ECCV(2018/2020)http://www.ecva.net/papers.php
    - 论文方法：
      - （1）证明了GAT的局限性，并将GAT注意力计算方式称为static attention。
      - （2）提出了dynamic attention，给出了相应的证明，并且构建了dynamic attention，称为GATv2。
+### 2023.5.9
 
+- 【分子属性预测】研讨
+   - 题目： UNI-MOL: A UNIVERSAL 3D MOLECULARREPRESENTATION LEARNING FRAMEWORK
+   - 作者： Gengmo Zhou1, Zhifeng Gao2, Qiankun Ding, Hang Zheng, Hongteng Xu, Zhewei Wei, Linfeng Zhang, Guolin Ke
+   - 单位： 中国人民大学， 深势科技， 北京科学智能研究院
+   - 解决问题： 在大多数MRL方法中，分子被视为1D顺序标记或2D拓扑图，限制了它们将3D信息用于下游任务的能力，特别是使得模型几乎不可能进行3D几何预测/生成。
+   - 关键思路： 通过预训练方式，在Graphormer中添加对表示，通过对遮盖原子和原子坐标预测两个代理任务，使得模型拥有学习3D结构信息的能力，使得模型学到的表征能包含丰富的3D信息，能够在下游任务中拥有更好的表达能力。
+   - 论文摘要： Molecular representation learning (MRL) has gained tremendous attention due to its critical role in learning from limited supervised data for applications like drug design. In most MRL methods, molecules are treated as 1D sequential tokens or 2D topology graphs, limiting their ability to incorporate 3D information for downstream tasks and, in particular, making it almost impossible for 3D geometry prediction/generation. In this paper, we propose a universal 3D MRL framework, called Uni-Mol, that significantly enlarges the representation ability and application scope of MRL schemes. Uni-Mol contains two pretrained models with the same SE(3) Transformer architecture: a molecular model pretrained by 209M molecular conformations; a pocket model pretrained by 3M candidate protein pocket data. Besides, Uni-Mol contains several finetuning strategies to apply the pretrained models to various downstream tasks. By properly incorporating 3D information, Uni-Mol outperforms SOTA in 14/15 molecular property prediction tasks. Moreover, Uni-Mol achieves superior performance in 3D spatial tasks, including protein-ligand binding pose prediction, molecular conformation generation, etc.
