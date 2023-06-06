@@ -640,14 +640,14 @@ In this work, we propose a new graph adjacency matrix that incorporates user-use
 the inclusion of user-user and item-item correlations can improve recommendations for users with both abundant and insufficient interactions.
 ### 2023.5.30
 
--【图神经网络鲁棒性】研讨
-  - 题目：Robust Tensor Graph Convolutional Networks via T-SVD based Graph Augmentation
-  - 作者：陈川团队
-  - 单位：中山大学
-  - 解决问题：图神经网络的防御模型
-  - 关键思路：通过T-SVD方法对高阶张量进行卷积操作
-  - 相关研究：SVD分解二阶矩阵
-  - 论文摘要：图神经网络（Graph Neural Networks，GNNs）展示了它们在处理图上复杂问题方面的强大能力。然而，作为深度学习模型在图上的扩展，GNNs对噪声或对抗性攻击非常脆弱，这是由于底层扰动在消息传递过程中的传播，会对最终性能产生显著影响。因此，研究一个鲁棒的GNN框架来抵御各种扰动非常重要。本文提出了一种鲁棒的张量图卷积网络（Robust Tensor Graph Convolutional Network，RT-GCN）模型来提高鲁棒性。一方面，我们利用多视角增强来减少增强的方差，并将它们组织为三阶张量，然后使用截断的T-SVD来捕捉多视角增强图的低秩性，从图预处理的角度提高鲁棒性。另一方面，为了有效捕捉多视角增强图上的视角间和视角内的信息，我们提出了张量图卷积网络（Tensor GCN，TGCN）框架，并分析了TGCN与传统GCN之间的数学关系，从模型架构的角度提高了鲁棒性。广泛的实验结果验证了RT-GCN在各种数据集上的有效性，并证明了在不同的图对抗攻击上，相对于现有模型的优越性。
+- 【图神经网络鲁棒性】研讨
+   - 题目：Robust Tensor Graph Convolutional Networks via T-SVD based Graph Augmentation
+   - 作者：陈川团队
+   - 单位：中山大学
+   - 解决问题：图神经网络的防御模型
+   - 关键思路：通过T-SVD方法对高阶张量进行卷积操作
+   - 相关研究：SVD分解二阶矩阵
+   - 论文摘要：图神经网络（Graph Neural Networks，GNNs）展示了它们在处理图上复杂问题方面的强大能力。然而，作为深度学习模型在图上的扩展，GNNs对噪声或对抗性攻击非常脆弱，这是由于底层扰动在消息传递过程中的传播，会对最终性能产生显著影响。因此，研究一个鲁棒的GNN框架来抵御各种扰动非常重要。本文提出了一种鲁棒的张量图卷积网络（Robust Tensor Graph Convolutional Network，RT-GCN）模型来提高鲁棒性。一方面，我们利用多视角增强来减少增强的方差，并将它们组织为三阶张量，然后使用截断的T-SVD来捕捉多视角增强图的低秩性，从图预处理的角度提高鲁棒性。另一方面，为了有效捕捉多视角增强图上的视角间和视角内的信息，我们提出了张量图卷积网络（Tensor GCN，TGCN）框架，并分析了TGCN与传统GCN之间的数学关系，从模型架构的角度提高了鲁棒性。广泛的实验结果验证了RT-GCN在各种数据集上的有效性，并证明了在不同的图对抗攻击上，相对于现有模型的优越性。
 
 ### 2023.6.6
 
