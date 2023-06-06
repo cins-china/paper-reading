@@ -62,7 +62,6 @@ ECCV(2018/2020)http://www.ecva.net/papers.php
 - 沈雅文 Cheesepackage （https://github.com/Cheesepackage）
 - 蒋玉洁 Thealuv (https://github.com/Thealuv)
 - 李雅杰 Echo-yajie（https://github.com/Echo-yajie）
-- 高美琳 Lumenlin（https://github.com/Lumenlin）
 - NomanChowdhury（https://github.com/NomanChowdhury）
 
 
@@ -640,6 +639,7 @@ ECCV(2018/2020)http://www.ecva.net/papers.php
 In this work, we propose a new graph adjacency matrix that incorporates user-user and item-item correlations, as well as a properly designed user-item interaction matrix that balances the number of interactions across all users. To achieve this, we pre-train a graph-based recommendation method to obtain users/items embeddings, and then enhance the user-item interaction matrix via top-K sampling. We also augment the symmetric user-user and item-item correlation components to the adjacency matrix. Our experiments demonstrate that the enhanced user-item interaction matrix with improved neighbors and lower density leads to significant benefits in graph-based recommendation. Moreover, we show that
 the inclusion of user-user and item-item correlations can improve recommendations for users with both abundant and insufficient interactions.
 ### 2023.5.30
+
 -【图神经网络鲁棒性】研讨
   - 题目：Robust Tensor Graph Convolutional Networks via T-SVD based Graph Augmentation
   - 作者：陈川团队
