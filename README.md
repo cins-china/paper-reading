@@ -648,7 +648,6 @@ the inclusion of user-user and item-item correlations can improve recommendation
    - 关键思路：通过T-SVD方法对高阶张量进行卷积操作
    - 相关研究：SVD分解二阶矩阵
    - 论文摘要：图神经网络（Graph Neural Networks，GNNs）展示了它们在处理图上复杂问题方面的强大能力。然而，作为深度学习模型在图上的扩展，GNNs对噪声或对抗性攻击非常脆弱，这是由于底层扰动在消息传递过程中的传播，会对最终性能产生显著影响。因此，研究一个鲁棒的GNN框架来抵御各种扰动非常重要。本文提出了一种鲁棒的张量图卷积网络（Robust Tensor Graph Convolutional Network，RT-GCN）模型来提高鲁棒性。一方面，我们利用多视角增强来减少增强的方差，并将它们组织为三阶张量，然后使用截断的T-SVD来捕捉多视角增强图的低秩性，从图预处理的角度提高鲁棒性。另一方面，为了有效捕捉多视角增强图上的视角间和视角内的信息，我们提出了张量图卷积网络（Tensor GCN，TGCN）框架，并分析了TGCN与传统GCN之间的数学关系，从模型架构的角度提高了鲁棒性。广泛的实验结果验证了RT-GCN在各种数据集上的有效性，并证明了在不同的图对抗攻击上，相对于现有模型的优越性。
-
 ### 2023.6.6
 
 - 【分子属性预测】研讨
@@ -660,3 +659,12 @@ the inclusion of user-user and item-item correlations can improve recommendation
    - 论文摘要：Molecular graph representation learning has shown considerable strength in molecular
 analysis and drug discovery. Due to the difficulty of obtaining molecular property labels, pretraining models based on self-supervised learning has become increasingly popular in molecular representation learning. Notably, Graph Neural Networks (GNN) are employed as the backbones to encode implicit representations of molecules in most existing works.However, vanilla GNN encoders ignore chemical structural information and functions implied in molecular motifs, and obtaining the graph-level representation via the READOUT function hinders the interaction of graph and node representations. In this paper, we propose Hierarchical Molecular Graph Self-supervised Learning (HiMol), which introduces a pre-training framework to learn molecule representation for property prediction. First, we present a Hierarchical Molecular Graph Neural Network (HMGNN), which encodes motif structure and extracts node-motif-graph hierarchical molecular representations. Then, we introduce Multilevel Self-supervised Pre-training (MSP), in which corresponding multi-level generative and
 predictive tasks are designed as self-supervised signals of HiMol model. Finally, superior molecular property prediction results on both classification and regression tasks demonstrate the effectiveness of HiMol. Moreover, the visualization performance in the downstream dataset shows that the molecule representations learned by HiMol can capture chemical semantic information and properties.
+### 2023.6.13
+
+- 【图像对抗】研讨
+   - 題目：ColorFool: Semantic Adversarial Colorization
+   - 作者：Ali Shahin Shamsabadi, Ricardo Sanchez-Matilla, Andrea Cavallaro
+   - 单位：Queen Mary University of London
+   - 解決问题：首先提出了基于内容的无限制黑盒攻击，在以往的工作之中，大部分的对抗攻击都是在 Lp 范数的规定之下，在这种限制下，就会导致攻击效果不是特别好，该论文使用无限制攻击，很大程度提升了攻击成功率，并且使图片看起来并不违和。
+   - 关键思路：首先对图片进行语义分割，并且标注出敏感部位和不敏感部位，然后对于敏感部位进行小程度的颜色变换，而对于不敏感部分则进行大范围的颜色修改，颜色修改主要集中于 Lab 颜色通道。
+   - 论文摘要：Adversarial attacks that generate small Lp-norm perturbations to mislead classifiers have limited success in black-box settings and with unseen classifiers. These attacks are also not robust to defenses that use denoising filters and to adversarial training procedures. Instead, adversarial attacks that generate unrestricted perturbations are more robust to defenses, are generally more successful in black-box settings and are more transferable to unseen classifiers. However, unrestricted perturbations may be noticeable to humans. In this paper, we propose a content-based black-box adversarial attack that generates unrestricted perturbations by exploiting image semantics to selectively modify colors within chosen ranges that are perceived as natural by humans. We show that the proposed approach, ColorFool, outperforms in terms of success rate, robustness to defense frameworks and transferability, five state-of-the-art adversarial attacks on two different tasks, scene and object classification, when attacking three state-of-the-art deep neural networks using three standard datasets. The source code is available at https://github.com/smartcameras/ColorFool.
