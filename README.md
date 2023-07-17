@@ -690,3 +690,17 @@ feedback. Subsequently, we employ two separate embeddings, the interest embeddin
      - （2）：Evoformer模块使用了横向注意力和纵向注意力机制，对pairing做了三角限制，通过多次重复的Evoformer不断精化embedding的结构。最后使用structure module生成3维结构
      - （3）：用带标签数据（氨基酸序列与三维坐标的对应）先训练一遍网络，然后用训练完的网络在无标签数据（仅有氨基酸序列）上预测一遍生成新的数据集，只保留预测得好的部分，然后把这两者混合拿来再进行训练，效果更好。
    - 论文摘要：Proteins are essential to life, and understanding their structure can facilitate a mechanistic understanding of their function. Through an enormous experimental effort1–4, the structures of around 100,000 unique proteins have been determined5, but this represents a small fraction of the billions of known protein sequences6,7. Structural coverage is bottlenecked by the months to years of painstaking effort required to determine a single protein structure. Accurate computational approaches are needed to address this gap and to enable large-scale structural bioinformatics. Predicting the three-dimensional structure that a protein will adopt based solely on its amino acid sequence—the structure prediction component of the ‘protein folding problem’8—has been an important open research problem for more than 50 years9. Despite recent progress10–14, existing methods fall far short of atomic accuracy, especially when no homologous structure is available. Here we provide the first computational method that can regularly predict protein structures with atomic accuracy even in cases in which no similar structure is known. We validated an entirely redesigned version of our neural network-based model, AlphaFold, in the challenging 14th Critical Assessment of protein Structure Prediction (CASP14)15, demonstrating accuracy competitive with experimental structures in a majority of cases and greatly outperforming other methods. Underpinning the latest version of AlphaFold is a novel machine learning approach that incorporates physical and biological knowledge about protein structure, leveraging multi-sequence alignments, into the design of the deep learning algorithm. AlphaFold predicts protein structures with an accuracy competitive with experimental structures in the majority of cases using a novel deep learning architecture.
+### 2023.7.11
+
+- 【蛋白质结构预测】研讨
+   - 题目：MSA Transformer
+   - 作者：Roshan Rao，Jason Liu，Robert Verkuil，Joshua Meier，John F. Canny，Pieter Abbeel，Tom Sercu，Alexander Rives
+   - 单位：Alexander River
+   - 解决问题：引入了一种多序列对齐的形式作为输入，利用了蛋白质序列之间的共进化信息，降低了模型中的参数量，提高了模型预测性能。
+   - 关键思路：将注意力交叉在对齐的行和列上，并提供一个一维序列位置嵌入，独立添加到msa每一行，最后根据序列之间的相似性捆绑行注意力。
+   - 摘要：Unsupervised protein language models trained
+across millions of diverse sequences learn structure and function of proteins. Protein language
+models studied to date have been trained to perform inference from individual sequences. The longstanding approach in computational biology has been to make inferences from a family of evolutionarily related sequences by fitting a model to each family independently. In this work we combine the two paradigms. We introduce a protein language model which takes as input a set of sequences in the form of a multiple sequence alignment. The model interleaves row and column attention across the input sequences and is trained with a variant of the masked language modeling objective across many protein families. The performance of the model surpasses current state-ofthe-art unsupervised structure learning methods
+by a wide margin, with far greater parameter effi- ciency than prior state-of-the-art protein language models.
+
+
