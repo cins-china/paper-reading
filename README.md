@@ -711,5 +711,39 @@ feedback. Subsequently, we employ two separate embeddings, the interest embeddin
 across millions of diverse sequences learn structure and function of proteins. Protein language
 models studied to date have been trained to perform inference from individual sequences. The longstanding approach in computational biology has been to make inferences from a family of evolutionarily related sequences by fitting a model to each family independently. In this work we combine the two paradigms. We introduce a protein language model which takes as input a set of sequences in the form of a multiple sequence alignment. The model interleaves row and column attention across the input sequences and is trained with a variant of the masked language modeling objective across many protein families. The performance of the model surpasses current state-ofthe-art unsupervised structure learning methods
 by a wide margin, with far greater parameter effi- ciency than prior state-of-the-art protein language models.
+### 2023.9.28
+
+- 【子图分类】研讨
+   - 题目：Position-Aware Subgraph Neural Networks with Data-Efficient Learning
+   - 作者：Chang Liu，Yuwen Yang，Zhe Xie，Hongtao Lu，Yue Ding
+   - 单位：Shanghai Jiao Tong University Shanghai, China
+   - 解决问题：
+     - （1）现有数据严重稀疏，少量节点主导了子图的表示学习。
+     - （2）现有方法很麻烦，需要很多计算资源。
+   - 关键思路：
+     - （1）提出了一种基于余弦相位编码的方案，无需选取锚点和设计模型，而是直接通过节点间的距离进行编码。以此省去了大量的训练开销。
+     - （2）针对子图的特性设计了生成式的增广方案以及对比学习方法，以此实现了子图上的数据高效学习，并缓解了样本不足带来的 bias 问题。
+   - 摘要：Data-efficient learning on graphs (GEL) is essential in real-world applications. Existing GEL methods focus on learning useful representations for 
+nodes, edges, or entire graphs with “small” labeled data. But the problem of data-efficient learning for subgraph prediction has not been explored. 
+The challenges of this problem lie in the following aspects: 1) It is crucial for subgraphs to learn positional features to acquire structural information in 
+the base graph in which they exist. Although the existing subgraph neural network method is capable of learning disentangled position encodings, 
+the overall computational complexity is very high. 2) Prevailing graph augmentation methods for GEL, including rule-based, sample-based, adaptive, 
+and automated methods, are not suitable for augmenting subgraphs because a subgraph contains fewer nodes but richer information such as 
+position, neighbor, and structure. Subgraph augmentation is more susceptible to undesirable perturbations. 3)Only a small number of nodes in the base 
+graph are contained in subgraphs, which leads to a potential “bias” problem that the subgraph representation learning is dominated by these“hot”nodes. 
+By contrast, the remaining nodes fail to be fully learned, which reduces the generalization ability of subgraph representation learning. In this paper, 
+we aim to address the challenges above and propose a Position-Aware Data-Efficient Learning framework for subgraph neural networks called PADEL. 
+Specifically, we propose a novel node position encoding method that is anchor-free, and design a new generative subgraph augmentation method based 
+on a diffused variational subgraph autoencoder, and we propose exploratory and exploitable views for subgraph contrastive learning. 
+Extensive experiment results on three real-world datasets show the superiority of our proposed method over state-of-the-art baselines.
+
+- 【图神经网络同质性、异质性问题】研讨
+   - 题目：LSGNN: Towards General Graph Neural Network in Node Classification by Local Similarity
+   - 作者：Yuhan Chen，Yihong Luo， Jing Tang，Liang Yang， Siya Qiu，Chuan Wang，Xiaochun Cao
+   - 单位：arXiv
+   - 解决问题：文章将节点间的拓扑信息纳入考虑范畴，提出局部相似度作为指示条件，为了解决图神经网络的性能在不同类型图中能够不受损害这一问题。
+   - 关键思路：提出局部相似度来学习节点级加权融合，以及初始残差连接模型进行特征提取。
+   - 摘要：- Heterophily has been considered as an issue that hurts the performance of Graph Neural Networks (GNNs). To  address this issue, some existing work uses a graph-level weighted fusion of the information of multi-hop neighbors to include more  nodes with homophily. However, the heterophily might differ among nodes, which requires to consider the local topology. Motivated by it, we propose to use the local similarity (LocalSim) to learn node level weighted fusion, which can also serve as a plug-and-play module. For better fusion, we propose a novel and efficient Initial Residual Difference Connection (IRDC) to extract more informative multi-hop information. Moreover, we provide theoretical analysis on the effectiveness of LocalSim representing node homophily on synthetic graphs. Extensive evaluations over real bench mark datasets show th at our proposed method, namely Local Similarity Graph Neural Network (LSGNN), can offer comparable or superior state of-the-art performance on both homophilic and heterophilic graphs. Meanwhile, the plug-and play model can significantly boost the performance of existing GNNs.
+
 
 
