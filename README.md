@@ -732,6 +732,20 @@ by a wide margin, with far greater parameter effi- ciency than prior state-of-th
    - 解决问题：文章将节点间的拓扑信息纳入考虑范畴，提出局部相似度作为指示条件，为了解决图神经网络的性能在不同类型图中能够不受损害这一问题。
    - 关键思路：提出局部相似度来学习节点级加权融合，以及初始残差连接模型进行特征提取。
    - 摘要：- Heterophily has been considered as an issue that hurts the performance of Graph Neural Networks (GNNs). To  address this issue, some existing work uses a graph-level weighted fusion of the information of multi-hop neighbors to include more  nodes with homophily. However, the heterophily might differ among nodes, which requires to consider the local topology. Motivated by it, we propose to use the local similarity (LocalSim) to learn node level weighted fusion, which can also serve as a plug-and-play module. For better fusion, we propose a novel and efficient Initial Residual Difference Connection (IRDC) to extract more informative multi-hop information. Moreover, we provide theoretical analysis on the effectiveness of LocalSim representing node homophily on synthetic graphs. Extensive evaluations over real bench mark datasets show th at our proposed method, namely Local Similarity Graph Neural Network (LSGNN), can offer comparable or superior state of-the-art performance on both homophilic and heterophilic graphs. Meanwhile, the plug-and play model can significantly boost the performance of existing GNNs.
+### 2023.10.12
 
+- 【交叉注意力机制】研讨
+   - 题目： Tree Cross Attention
+   - 作者：Leo Feng, Frederick Tung, Hossein Hajimirsadeghi, Yoshua Bengio, Mohamed Osama Ahmed
+   - 单位：arXiv
+   - 解决问题：为避免原始Cross Attention的all-to-all计算，利用强化学习构建在Attention的计算过程中构建具有选择机制的树节点，降低模型计算复杂度的同时，避免模型的损失。
+   - 关键思路：利用强化学习构建特征树，利用query查询机制进行token选择。
+   - 摘要：Cross Attention is a popular method for retrieving information from a set of context tokens for making predictions. At inference time, for each prediction, Cross Attention scans the full set of O(N) tokens. In practice, however, often only a small subset of tokens are required for good performance. Methods such as Perceiver IO are cheap at inference as they distill the information to a smaller-sized set of latent tokens L<N on which cross attention is then applied, resulting in only O(L) complexity. However, in practice, as the number of input tokens and the amount of information to distill increases, the number of latent tokens needed also increases significantly. In this work, we propose Tree Cross Attention (TCA) - a module based on Cross Attention that only retrieves information from a logarithmic O(log(N)) number of tokens for performing inference. TCA organizes the data in a tree structure and performs a tree search at inference time to retrieve the relevant tokens for prediction. Leveraging TCA, we introduce ReTreever, a flexible architecture for token-efficient inference. We show empirically that Tree Cross Attention (TCA) performs comparable to Cross Attention across various classification and uncertainty regression tasks while being significantly more token-efficient. Furthermore, we compare ReTreever against Perceiver IO, showing significant gains while using the same number of tokens for inference.
+
+- 【过度平滑和过度挤压关系】研讨
+   -  题目：On the Trade-off between Over-smoothing and Over-squashing in Deep Graph Neural Networks
+   -  作者：Jhony H. Giraldo，Thierry Bouwmans，Konstantinos Skianis，Fragkiskos D. Malliaros
+   -  单位：Institut Polytechnique de Paris - Télécom Paris
+   -  解决问题：提出了一种
 
 
