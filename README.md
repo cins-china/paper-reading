@@ -746,6 +746,8 @@ by a wide margin, with far greater parameter effi- ciency than prior state-of-th
    -  题目：On the Trade-off between Over-smoothing and Over-squashing in Deep Graph Neural Networks
    -  作者：Jhony H. Giraldo，Thierry Bouwmans，Konstantinos Skianis，Fragkiskos D. Malliaros
    -  单位：Institut Polytechnique de Paris - Télécom Paris
-   -  解决问题：提出了一种
+   -  解决问题：提出了一种基于曲率的重新布线算法，利用过度平滑和过度挤压的平衡关系，提高了模型预测性能。
+   -  关键思路：推导了过度平滑和过度挤压与谱间隙的关系，并根据曲率对图的边进行添加和删除。
+   -  摘要：Graph Neural Networks (GNNs) have succeeded in various computer science applications, yet deep GNNs underperform their shallow counterparts despite deep learning’s success in other domains. Over-smoothing and over-squashing are key challenges when stacking graph convolutional layers, hindering deep representation learning and information propagation from distant nodes. Our work reveals that over-smoothing and over-squashing are intrinsically related to the spectral gap of the graph Laplacian, resulting in an inevitable trade-off between these two issues, as they cannot be alleviated simultaneously. To achieve a suitable compromise, we propose adding and removing edges as a viable approach. We introduce the Stochastic Jost and Liu Curvature Rewiring (SJLR) algorithm, which is computationally efficient and preserves fundamental properties compared to previous curvature-based methods. Unlike existing approaches, SJLR performs edge addition and removal during GNN training while maintaining the graph unchanged during testing. Comprehensive comparisons demonstrate SJLR’s competitive performance in addressing over-smoothing and over-squashing.
 
 
