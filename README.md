@@ -813,3 +813,13 @@ by a wide margin, with far greater parameter effi- ciency than prior state-of-th
    - 解决问题：将曲率与过平滑和过挤压联系了起来，提出了一种基于曲率的重新布线算法，来同时缓解图上过平滑和过挤压问题。
    - 关键思路：将高曲率与过平滑联系起来，低曲率与过挤压联系起来，并根据得到的这个关系对图的边进行添加和删除操作。添加边是通过计算出对两节点传输代价贡献最大的节点对，并将其连接起来。
    - 摘要：Graph Neural Networks (GNNs) had been demonstrated to be inherently susceptible to the problems of over-smoothing and over-squashing. These issues prohibit the ability of GNNs to model complex graph interactions by limiting their effectiveness in taking into account distant information. Our study reveals the key connection between the local graph geometry and the occurrence of both of these issues, thereby providing a unified framework for studying them at a local scale using the Ollivier-Ricci curvature. Specifically, we demonstrate that oversmoothing is linked to positive graph curvature while over-squashing is linked to negative graph curvature. Based on our theory, we propose the Batch Ollivier-Ricci Flow, a novel rewiring algorithm capable of simultaneously addressing both over-smoothing and over-squashing.
+### 2023.12.5
+
+- 【基于元学习的分子属性预测】研讨
+   - 题目： Graph Sampling-based Meta-Learning for Molecular Property Prediction
+   - 作者： Xiang Zhuang , Qiang Zhang, Bin Wu, Keyan Ding, Yin Fang and Huajun Chen
+   - 单位： 浙江大学
+   - 解决问题： 分子拥有多种属性，利用分子和属性之间一对多的关系。
+   - 关键思路： 将分子数据集建模成分子属性图（MPG），通过描述分子和属性之间的关系，从一个更加粗粒的层面，来预测分子的属性。
+   - 摘要：Molecular property is usually observed with a limited number of samples, and researchers have considered property prediction as a few-shot problem. One important fact that has been ignored by prior works is that each molecule can be recorded with several different properties simultaneously. To effectively utilize many-to-many correlations of molecules and properties, we propose a Graph Sampling-based Meta-learning (GS-Meta) framework for few-shot molecular property prediction. First, we construct a Molecule-Property relation Graph (MPG): molecule and properties are nodes, while property labels decide edges. Then, to utilize the topological information of MPG, we reformulate an episode in metalearning as a subgraph of the MPG, containing a target property node, molecule nodes, and auxiliary property nodes. Third, as episodes in the form of subgraphs are no longer independent of each other, wepropose to schedule the subgraph sampling process with a contrastive loss function, which considers the consistency and discrimination of subgraphs. Extensive experiments on 5 commonlyused benchmarks show GS-Meta consistently outperforms state-of-the-art methods by 5.71%-6.93% in ROC-AUC and verify the effectiveness of each
+ proposed module. Our code is available at https: //github.com/HICAI-ZJU/GS-Meta.
