@@ -65,6 +65,7 @@ ECCV(2018/2020)http://www.ecva.net/papers.php
 - NomanChowdhury (https://github.com/NomanChowdhury)
 - 周泽生 Jasen-Zhou (https://github.com/Jasen-Zhou)
 - 张洪瑞 zhr11021820 https://github.com/zhr11021820)
+- 夏皓凡 FINEort (https://github.com/FINEort)
 
 
 
