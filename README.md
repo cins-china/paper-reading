@@ -45,24 +45,26 @@ ECCV(2018/2020)http://www.ecva.net/papers.php
 
 ## Group Member
 
-- 张巍 	weizhang-git-zw(https://github.com/weizhang-git-zw)
-- 杨洋	yeung2y(https://github.com/yeung2y)
+- 张巍  weizhang-git-zw(https://github.com/weizhang-git-zw)
+- 杨洋 yeung2y(https://github.com/yeung2y)
 - 顾天一
-- 黄金城	huangJC0429(https://github.com/huangJC0429)
-- 唐国根	Teigenm(https://github.com/Teigenm)
+- 黄金城 huangJC0429(https://github.com/huangJC0429)
+- 唐国根 Teigenm(https://github.com/Teigenm)
 - 李丽	Lily029106(https://github.com/Lily029106)
 - 陈娜	nachen-na(https://github.com/nachen-na)
 - 黄恺文
-- 李国伟 	lgw9527111(https://github.com/lgw9527111)
-- 胡诗琪 	Nancy206-hu(https://github.com/Nancy206-hu)
-- 李攀	bert-ply(https://github.com/bert-ply)
-- 张阿聪	zac-hub(https://github.com/zac-hub)
-- 王泓淏 Assassinswhh（https://github.com/Assassinswhh）
-- 朱鑫鹏 CharlieZhuZhu（https://github.com/CharlieZhuZhu）
-- 沈雅文 Cheesepackage （https://github.com/Cheesepackage）
-- 蒋玉洁 Thealuv (https://github.com/Thealuv)
-- 李雅杰 Echo-yajie（https://github.com/Echo-yajie）
-- NomanChowdhury（https://github.com/NomanChowdhury）
+- 李国伟 lgw9527111(https://github.com/lgw9527111)
+- 胡诗琪 Nancy206-hu(https://github.com/Nancy206-hu)
+- 李攀 bert-ply(https://github.com/bert-ply)
+- 张阿聪 zac-hub(https://github.com/zac-hub)
+- 王泓淏 Assassinswhh(https://github.com/Assassinswhh)
+- 朱鑫鹏 CharlieZhuZhu(https://github.com/CharlieZhuZhu)
+- 沈雅文 Cheesepackage(https://github.com/Cheesepackage)
+- 蒋玉洁 Thealuv(https://github.com/Thealuv)
+- 李雅杰 Echo-yajie(https://github.com/Echo-yajie)
+- NomanChowdhury(https://github.com/NomanChowdhury)
+- 周泽生 Jasen-Zhou(https://github.com/Jasen-Zhou)
+- 张洪瑞 zhr11021820(https://github.com/zhr11021820)
 
 
 
