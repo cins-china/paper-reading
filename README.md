@@ -67,6 +67,8 @@ ECCV(2018/2020)http://www.ecva.net/papers.php
 - 张洪瑞 zhr11021820 https://github.com/zhr11021820)
 - 夏皓凡 FINEort (https://github.com/FINEort)
 - 赵珂 zkzqbycg  (https://github.com/zkzqbycg)
+- 张术洵 zfss1234 (https://github.com/zfss1234)
+- 付鑫 (https://github.com/1760886997)
 
 
 
