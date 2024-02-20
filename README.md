@@ -923,7 +923,7 @@ existing GNNs are based on the assumption of homophily, so they cannot be direct
    - 关键思路：以往生成的对抗噪声中，包含着原图的风格信息和内容信息，作者认为风格信息对于攻击的迁移性效果较差，因此作者构建的模型通过加入随机的混合风格，从而使从原图中获取的风格信息减少。
    - 摘要：Adversarial attacks can mislead deep neural networks (DNNs) by adding imperceptible perturbations to benign examples. The attack transferability enables adversarial examples to attack black-box DNNs with unknown archi- tectures or parameters, which poses threats to many real- world applications. We find that existing transferable at- tacks do not distinguish between style and content features during optimization, limiting their attack transferability. To improve attack transferability, we propose a novel attack method called style-less perturbation (StyLess). Specifi- cally, instead of using a vanilla network as the surrogate model, we advocate using stylized networks, which encode different style features by perturbing an adaptive instance normalization. Our method can prevent adversarial exam- ples from using non-robust style features and help gener- ate transferable perturbations. Comprehensive experiments show that our method can significantly improve the transfer- ability of adversarial examples. Furthermore, our approach is generic and can outperform state-of-the-art transferable attacks when combined with other attack techniques. 1 
 
--【transformer结构优化】研讨
+- 【Transformer结构优化】研讨
   - 题目：Segmented Recurrent Transformer: An Efficient Sequence-to-Sequence Model
   - 作者：Yinghan Long, Sayeed Shafayet Chowdhury, Kaushik Roy
   - 单位：Purdue University
