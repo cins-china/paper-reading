@@ -989,7 +989,7 @@ sequence into segments and apply attention to the individual segments. We propos
   - 关键思路：将图结构信息编码为文本输入给大模型
   - 摘要：Graphs are a powerful tool for representing and analyzing complex relationships in real-world applications such as social networks, recommender systems, and computational finance. Reasoning on graphs is essential for drawing inferences about the relationships between entities in a complex system, and to identify hidden patterns and trends. Despite the remarkable progress in automated reasoning with natural text, reasoning on graphs with large language models (LLMs) remains an understudied problem. In this work, we perform the first comprehensive study of encoding graph-structured data as text for consumption by LLMs. We show that LLM performance on graph reasoning tasks varies on three fundamental levels: (1) the graph encoding method, (2) the nature of the graph task itself, and (3) interestingly, the very structure of the graph considered. These novel results provide valuable insight on strategies for encoding graphs as text. Using these insights we illustrate how the correct choice of encoders can boost performance on graph reasoning tasks inside LLMs by 4.8% to 61.8%, depending on the task.
 
--【基于掩码的图自监督学习】研讨
+- 【基于掩码的图自监督学习】研讨
   - 题目：GraphMAE2: A Decoding-Enhanced Masked Self-Supervised Graph Learner
   - 作者：Zhenyu Hou，Yufei He，Yukuo Cen，Xiao Liu
   - 单位：Tsinghua University, China
